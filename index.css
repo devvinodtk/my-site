@@ -617,12 +617,12 @@ ul.color_schemes li {
 /* 2.4. Swirl Date */
 span.swirl-left {
 	display: inline-block;
-	background: url(../img/swirl-left.png) no-repeat left ;
+	background: url(./asset/img/swirl-left.png) no-repeat left ;
 	padding: 0 0 0 130px;
 }
 span.swirl-right {
 	display: inline-block;
-	background: url(../img/swirl-right.png) no-repeat right;
+	background: url(./asset/img/swirl-right.png) no-repeat right;
 	padding: 10px 130px 10px 0px;
 }
 .title-under {
