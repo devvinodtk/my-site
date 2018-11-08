@@ -697,7 +697,7 @@ span.swirl-right {
 
 .section-title span:after{
 	display: inline-block;
-	background: url(../img/section-title-bg.png) repeat-x center center;
+	background: url(./asset/img/section-title-bg.png) repeat-x center center;
 	width: 50px;
 	height: 3px;
 	position: absolute;
@@ -708,7 +708,7 @@ span.swirl-right {
 
 .section-title span:before{
 	display: inline-block;
-	background: url(../img/section-title-bg.png) repeat-x center center;
+	background: url(./asset/img/section-title-bg.png) repeat-x center center;
 	width: 50px;
 	height: 3px;
 	position: absolute;
@@ -1090,7 +1090,7 @@ span.swirl-right {
 
 .story-section .date:before {
     color: #fff;
-    content: '\f228';
+    content: '\e84c';
     font-family: "fontello";
     height: 32px;
     width: 32px;
@@ -1133,8 +1133,8 @@ span.swirl-right {
 .story-section .together:before {
     color: #fff;
     border-radius: 50%;
-    font-family: "fontello";
-    content: '\e84c';
+	font-family: "fontello";
+	content: '\f228';
     height: 32px;
     width: 32px;
     position: absolute;
@@ -1203,6 +1203,7 @@ span.swirl-right {
 }
 
 .location .location-block{
+	height: 84px;
 	background: #fff;
 }
 
@@ -1213,6 +1214,10 @@ span.swirl-right {
 
 .location h2{
 	text-transform: uppercase;
+}
+
+.location p{
+	font-size: 11px;
 }
 
 #map-canvas {
