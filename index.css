@@ -1748,9 +1748,9 @@ span.swirl-right {
 	.flip-clock-wrapper ul {
 	    width: 50px;
 	    height: 70px;
-    }
-    .flip-clock-divider.days .flip-clock-label {
-    	right: -103px;
+	}
+	.flip-clock-divider.days .flip-clock-label {
+		right: -68px;
 	}
 	.flip-clock-divider .flip-clock-label {
 	    bottom: 0.2em;
@@ -1844,7 +1844,7 @@ span.swirl-right {
 	    padding: 0;
     }
     .flip-clock-divider.days .flip-clock-label {
-    	right: -56px;
+    	right: -40px;
 	}
 	.flip-clock-divider .flip-clock-label {
 	    bottom: 0.2em;

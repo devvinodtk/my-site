@@ -205,9 +205,6 @@
   color: #e2b123;
   text-shadow: none; }
   
-.flip-clock-divider.days .flip-clock-label {
-  right: -119px; }
-  
 .flip-clock-divider.hours .flip-clock-label {
   right: -85px; }
 
