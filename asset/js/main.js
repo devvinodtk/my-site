@@ -15,7 +15,7 @@ Author: EXSYthemes
 $(window).on('load', function() { 
     "use strict";   
      $('.status').fadeOut();
-     $('#preloader').delay(350).fadeOut('slow'); 
+     $('#preloader').delay(3000).fadeOut('slow'); 
  }); 
  /* END Preloader js */
  
