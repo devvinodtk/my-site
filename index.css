@@ -1213,11 +1213,12 @@ span.swirl-right {
 }
 
 .location h2{
+	margin-top: 10px;
 	text-transform: uppercase;
 }
 
 .location p{
-	font-size: 11px;
+	font-size: 10px;
 }
 
 #map-canvas {
