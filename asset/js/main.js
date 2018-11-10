@@ -190,6 +190,8 @@ $(window).on('load', function() {
          map.mapTypes.set(MY_MAPTYPE_ID, customMapType_church);
          
          //marker church
+         var marriage_location = 'https://www.google.co.in/maps/place/Thuluvannur+Temple/@12.1143769,75.1976958,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba46dcd11b193a1:0x227333c6fdc0452a!8m2!3d12.1143769!4d75.1998845';
+         var reception_location = 'https://www.google.co.in/maps/place/Royal+Palace+Auditorium,Kariyode/@10.9317007,76.4669171,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba878bb5cfad08b:0x8d5083e1743d5a34!8m2!3d10.9317007!4d76.4691058';
          var image_church  = new google.maps.MarkerImage("asset/img/marker-church.png", null, null, null, new google.maps.Size(33,50));
          var positionpin_church  = new google.maps.LatLng(12.1143769, 75.1998845);
          var marker_church  = new google.maps.Marker({
@@ -200,7 +202,10 @@ $(window).on('load', function() {
            title: ''
          });
          var boxText_church = document.createElement("div");
-         boxText_church.innerHTML = '<div class="grid grid_6 percentage border-white"><div class="block-focus center"><h4>Marriage</h4><h5>Cerimony</h5><p>11:20 AM - 12:10 PM</p></div></div><div class="grid grid_6 percentage border-white"><img class="block-focus border-white" src="asset/img/map-church.jpg"></div>';
+         boxText_church.innerHTML = '<div class="grid grid_6 info-box percentage border-white"><div class="block-focus center">'+
+                                    '<h6>Marriage Cerimony</h6><p> 22nd Dec 2018<br/>11:20 AM - 12:10 PM</p>'+
+                                    '<div class="show-on-map"><a target="_blank" href='+marriage_location+'>Show on Map</div></div>'+
+                                    '</div><div class="grid grid_6 percentage border-white"><img class="block-focus border-white" src="asset/img/map-church.jpg"></div>';
          var marker_church_options = {
               content: boxText_church
              ,disableAutoPan: false
@@ -237,7 +242,10 @@ $(window).on('load', function() {
            title: ''
          });
          var boxText_restaurant = document.createElement("div");
-         boxText_restaurant.innerHTML = '<div class="grid grid_6 percentage border-white"><div class="block-focus center"><h4><strong>Reception</strong></h4><h5>PARTY</h5><p>12:00 PM - 02:00 PM</p></div></div><div class="grid grid_6 percentage border-white"><img class="block-focus border-white" src="asset/img/map-auditorium.jpg"></div>';
+         boxText_restaurant.innerHTML = '<div class="grid info-box grid_6 percentage border-white"><div class="block-focus center">'+
+                                        '<h6>Reception Party</h6><p>23rd Dec 2018<br/>12:00 PM - 03:00 PM</p>'+
+                                        '<div class="show-on-map"><a target="_blank" href='+reception_location+'>Show on Map</div></div>'+
+                                        '</div><div class="grid grid_6 percentage border-white"><img class="block-focus border-white" src="asset/img/map-auditorium.jpg"></div>';
          var marker_restaurant_options = {
               content: boxText_restaurant
              ,disableAutoPan: false
